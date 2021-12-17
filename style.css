@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: black;
+}
+
+.menu {
+    display: block;
+    justify-content: flex-start;
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+    color: tomato;
+}
+
+.box { 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo {
+    background-color: yellow;
+}
+
+.menu1 {
+    background-color: mediumpurple;
+}
