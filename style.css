@@ -1,6 +1,6 @@
 body {
     width: 1920px;
-    height: 6480px;
+    height: 4800px;
     background-color:rgb(102, 201, 168);
     margin: 0%;
     padding: 0%;
@@ -93,6 +93,7 @@ h1 {
     background-color: beige;
     text-align: right;
     margin: 120px 150px 0px 0px;
+    padding-right: 20px;
 }
 
 .Sobre {
@@ -119,9 +120,10 @@ h1 {
     color: beige;
 }
 
-.adote {
-    width: 100%;
+.Adote {
+    height: 1000px;
 }
+
 .box2 {
     width: 90%;
     background-color: beige;
@@ -137,46 +139,52 @@ h1 {
 
 .dog1 {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .cat1 {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .dog2 {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .dog3 {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .cat2 {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .dog4 {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .namepet {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: rgb(102, 201, 168);
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 20px;
 }
 
@@ -188,10 +196,34 @@ h1 {
     padding: 20px;
 }
 
+.Ajuda {
+    height: 750px;
+}
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: rgb(102, 201, 168);
+    background-color: beige;
+    text-align: left;
+    margin: 100px 0px 0px 150px;
+    padding-left: 20px;
+} 
 
+.contato {
+    width: 100%;
+    height: 800px;
+}
 
-
+.linha {
+    width: 88%;
+    background-color: beige;
+    color: rgb(102, 201, 168);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 80px 0px 80px 190px;
+    padding: 40px 0px 40px 40px;
+}
 
 footer {
     background-color: beige;
@@ -201,29 +233,35 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
-    
-}
-.rodape {
-    display: flex;
-    margin: 0;
-    width: 450px;
-    height: 80px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
+    justify-content:space-evenly;
+    vertical-align: center;
 }
 
+.menurodape {
+    font-family: 'Montserrat', sans-serif;
+    color: black);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 100px 15px 0px;
+    padding: 0px;
+}
+
+.menu2:hover {
+    font-size: 16px;
+    color: black;
+    text-decoration: underline;
+}
 .copy {
     font-family: 'Montserrat', sans-serif;
+    color: black);
     font-size: 14px;
-    font-weight: 400;
-    margin: 0% 3px 15px 3px;
-    padding: 0% 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 200px 0px 200px;
 }
 
 .icons {
-    margin: 0% 125px;
+    margin: 30px 0px 0px 0px;
     padding: 0% 50px;
 }
 
