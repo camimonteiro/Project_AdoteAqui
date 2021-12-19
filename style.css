@@ -1,3 +1,4 @@
+/* Config do body no geral */
 body {
     width: 1920px;
     height: 4800px;
@@ -6,6 +7,7 @@ body {
     padding: 0%;
 }
 
+/* Config do cabeçalho */
 header {
     background-color:beige;
     width: 100%;
@@ -13,6 +15,7 @@ header {
     display: flex;
 }
 
+/* Config da box da logo */
 .logo{
     display: flex;
     flex-direction: row;
@@ -21,7 +24,7 @@ header {
     width: 50%;
 
 }
-
+/* Config do texto do box da logo */ 
 .text {
     font-family: 'Quicksand', sans-serif;
     font-size: 40px ;
@@ -29,6 +32,7 @@ header {
     margin-top: 35px; 
 }
 
+/* Config da imagem do box da logo */
 .imagem {
     width: 11%;
     height: 75%;
@@ -37,10 +41,12 @@ header {
     margin-right: 1%;
 }
 
+/* Mudança de cor no texto da logo */
 .text:hover {
     color: black;
 }
 
+/* Config do box do menu*/
 .menu {
     width: 35%;
     display: flex;
@@ -53,6 +59,7 @@ header {
     align-items: baseline;
 }
 
+/* Config do texto do menu */
 .menu1 {
     color:rgb(102, 201, 168);
     font-family: 'Montserrat', sans-serif;
@@ -60,12 +67,14 @@ header {
     font-weight: 500;
 }
 
+/* Mudança de cor + tamanho + subinhado no menu */
 .menu1:hover {
     font-size: 25px;
     color: black;
     text-decoration: underline;
 }
 
+/* Config da imagem + espaço da home */
 .home {
     height: 850px;
     background-image: url(https://www.petz.com.br/blog/wp-content/uploads/2019/05/centro-de-zoonoses-pet.jpg);
@@ -75,6 +84,7 @@ header {
     opacity: 90%;
 }
 
+/* Config do texto da home */ 
 .hometext {
     text-align: center;
     position: absolute;
@@ -86,6 +96,7 @@ header {
     padding: 25px;
 }
 
+/* Config do h1 - texto da home + títulos das págs sobre e adote */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
@@ -96,12 +107,14 @@ h1 {
     padding-right: 20px;
 }
 
+/* Config fundo da pág Sobre */
 .Sobre {
     background-color: rgb(102,201,168);
     width: 1920px;
     height: 750px;
 }
 
+/* Config flexbox pág Sobre + pág Ajuda*/
 .box1 {
     display: flex;
     flex-direction: row;
@@ -111,6 +124,7 @@ h1 {
     margin: 0px 0px 100px 0px;
 }
 
+/* Config texto pág Sobre + pág Ajuda */
 .about {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -120,10 +134,12 @@ h1 {
     color: beige;
 }
 
+/* Config da pág Adote */
 .Adote {
     height: 1000px;
 }
 
+/* Config Flexbox pág Adote */
 .box2 {
     width: 90%;
     background-color: beige;
@@ -137,48 +153,15 @@ h1 {
     margin-left: 10%;
 }
 
-.dog1 {
+/* Config imagem dos pets */
+.pet {
     border-radius: 50%;
     width: 260px;
     height: 260px;
     object-fit: cover;
 }
 
-.cat1 {
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-}
-
-.dog2 {
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-}
-
-.dog3 {
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-}
-
-.cat2 {
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-}
-
-.dog4 {
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-}
-
+/* Config do texto dos nomes dos pets */
 .namepet {
     font-family: 'Quicksand', sans-serif;
     color: rgb(102, 201, 168);
@@ -188,6 +171,7 @@ h1 {
     padding: 20px;
 }
 
+/* Config do texto sobre os pets */
 .textpet {
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -196,10 +180,12 @@ h1 {
     padding: 20px;
 }
 
+/* Config pág de ajuda */
 .Ajuda {
     height: 750px;
 }
 
+/* Config h2 - títulos das págs Ajuda e Contato */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
@@ -210,11 +196,13 @@ h2 {
     padding-left: 20px;
 } 
 
+/* Config pág contato */
 .contato {
     width: 100%;
     height: 800px;
 }
 
+/* Config formulário */
 .linha {
     width: 88%;
     background-color: beige;
@@ -225,6 +213,7 @@ h2 {
     padding: 40px 0px 40px 40px;
 }
 
+/* Config rodapé */
 footer {
     background-color: beige;
     width: 100%;
@@ -237,6 +226,7 @@ footer {
     vertical-align: center;
 }
 
+/* Config menu de rodapé */
 .menurodape {
     font-family: 'Montserrat', sans-serif;
     color: black);
@@ -246,11 +236,14 @@ footer {
     padding: 0px;
 }
 
+/* mudança de cor + tamanho + sublinhado - menu rodapé */
 .menu2:hover {
     font-size: 16px;
     color: black;
     text-decoration: underline;
 }
+
+/* Config informações de copyright */
 .copy {
     font-family: 'Montserrat', sans-serif;
     color: black);
@@ -260,15 +253,17 @@ footer {
     margin: 50px 200px 0px 200px;
 }
 
+/* Config ícones redes sociais */
 .icons {
     margin: 30px 0px 0px 0px;
     padding: 0% 50px;
 }
 
+/* Config ícone github */
 .github {
     width: 50px;
 }
-
+/* Config ícone linkedin*/
 .linkedin {
     width: 50px;
 }
