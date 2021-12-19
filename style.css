@@ -213,6 +213,42 @@ h2 {
     padding: 40px 0px 40px 40px;
 }
 
+ /* Config do placeholder (texto dentro das caixas) */
+ ::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+}
+input:-moz-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Config do botão de enviar */
+.bt {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(102, 201, 168);
+    box-shadow: inset 0px 1px 0px 0px rgb(185, 185, 185);
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: beige;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+/* aumento da fonte e mudança de cor do botão */
+.bt:hover {
+    color: black;
+    font-size: 16px;
+}
+
 /* Config rodapé */
 footer {
     background-color: beige;
