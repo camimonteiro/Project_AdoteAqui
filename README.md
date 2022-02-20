@@ -1,5 +1,8 @@
 # Project_AdoteAqui 🐶🐱
 
+<h3>Em desenvolvimento...</h3>
+
+<!-- 
 <div id="inicio" align=center>
   <a href="#sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;
   <a href="screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;
@@ -51,3 +54,4 @@ Esse projeto foi desenvolvido para fins educativos.</p>
 <div align="center">
   &#129145;&nbsp;<a href="#inicio"><strong>Voltar ao topo</strong></a>&nbsp;&#129145;
 </div>
+ -->
