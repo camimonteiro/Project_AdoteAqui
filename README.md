@@ -13,19 +13,15 @@
 <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo%20%2F%20Finalizado-sucesso?style=for-the-badge&logo=cachet" height="30em"><br>
 
 <h2 id="sobre">Sobre o projeto 🔎</h2>
-<!-- <p> Cripto - PandoraBox é uma aplicação de criptografia de texto utilizando dois códigos: Base 64 e Cifra de César, como opção para criptografar a mensagem. A ferramenta permite que os textos sejam tanto criptografados quanto descriptografados.<br>
+<p> O site <strong><a href="https://camimonteiro.github.io/Project_AdoteAqui/">Adote Aqui!</a></strong> é um projeto desenvolvido para uma ONG de adoção de animais. O objetivo era criar um site atrativo e clean, com as principais informações dos animais disponíveis para adoção, da ONG e de como ajudar essa nobre causa. 
 
-<strong>E ai quem vai ter coragem de abrir essa PandoraBox?</strong> -->
-
-Esse projeto foi desenvolvido para fins educativos.</p>
+Esse projeto foi desenvolvido para fins educativos, para o curso de WebDev FullStack da Resilia.</p>
 
 <h2 id="screenshots">Screenshots 📸</h2>
 
-<!-- <img src="https://raw.githubusercontent.com/camimonteiro/Cripto_PandoraBox/main/Screenshots/Foto%201.png" width="80%" height="50%"><br>
+<img src="https://github.com/camimonteiro/Project_AdoteAqui/blob/main/Imagens/Projeto%20Adote%20Aqui_Camille%20Monteiro.png?raw=true" width="80%" height="50%"><br>
 
-<img src="https://raw.githubusercontent.com/camimonteiro/Cripto_PandoraBox/main/Screenshots/Foto%202.png" width="80%" height="50%"><br>
-
-<img src="https://raw.githubusercontent.com/camimonteiro/Cripto_PandoraBox/main/Screenshots/Foto%203.png" width="80%" height="50%"><br> -->
+<img src="https://github.com/camimonteiro/Project_AdoteAqui/blob/main/Imagens/Adote%20Aqui%20-%20Screenshot.gif?raw=true" width="80%" height="50%"><br>
 
 
 <h2 id="linguagens">Softwares & Ferramentas utilizadas nesse projeto 📚</h2>
